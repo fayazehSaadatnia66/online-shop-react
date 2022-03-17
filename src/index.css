@@ -1,0 +1,24 @@
+html {
+  font-family: "irSans";
+}
+body {
+  margin: 0;
+  font-family: "irSans";
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: "irSans";
+  src: local("irSans");
+  src: url("./fonts/iransans/eot/IRANSansWeb\(FaNum\).eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-8 */ url("./fonts/iransans/woff2/IRANSansWeb\(FaNum\).woff2")
+      format("woff2"),
+    /* FF39+,Chrome36+, Opera24+*/
+      url("./fonts/iransans/woff/IRANSansWeb\(FaNum\).woff") format("woff"),
+    /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+      url("./fonts/iransans/ttf/IRANSansWeb\(FaNum\).ttf") format("truetype");
+}
